@@ -23,7 +23,11 @@ public class MatrixMult {
                     A[i][j] = sc.nextInt();
                 }
             }
-
+            for(int i = 0; i < r2; i++){
+                for(int j = 0; j<c2;j++){
+                    B[i][j] = sc.nextInt();
+                }
+            }
             
             int C[][] = new int[r1][c2];
             for(int i = 0;i<r1;i++){
